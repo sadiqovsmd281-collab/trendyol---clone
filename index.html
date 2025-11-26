@@ -5,7 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
- 
+
+    <!-- Css links -->
+
+    <link rel="stylesheet" href="css/header.css">
 
 </head>
 <body>
@@ -22,26 +25,38 @@
                  <img src="https://cdn.dsmcdn.com/web/logo/ty-web.svg" alt="Trendyol Logo" width="143" >
         </div>
 
-        <div class="search">
-            <form action="/search" method="get" id="search" name="search" autocomplete="off">
-                <label for="search">search</label>
-                <input type="text" name="search" id="search" placeholder="Aradığıgınız ürün, kategori veya markayı yazınız"><i class="fa-solid fa-magnifying-glass"></i>
+        <div class="searchbox">
+            <form action="/search" method="get" id="searchForm" name="search" autocomplete="off">
+                <label for="search"></label>
+                <input type="text" name="search" id="search" placeholder="Aradığınız ürün, kategori veya markayı yazınız"><i class="fa-solid fa-magnifying-glass"></i>
             </form>
         </div>
 
+     <div class="icon">
 
         <div class="login">
-            <a href=""><i class="fa-regular fa-user"></i>Giriş Yap</a>
+            <a href="">
+              <svg xmlns="http://www.w3.org/2000/svg"
+             
+              width="1.2rem" height="1.2rem" viewBox="0 0 24 24"><g fill="" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><circle  cx="12" cy="8" r="5" /><path d="M20 21a8 8 0 1 0-16 0"/><path  d="M12 13a8 8 0 0 0-8 8h16a8 8 0 0 0-8-8z"/>
+             
+            </g></svg>
+              Giriş Yap
         </div>
 
 
         <div class="favocin">
-            <a href=""><i class="fa-regular fa-heart"></i></a>
+            <a href="">
+               <svg xmlns="http://www.w3.org/2000/svg" width="1.2rem" height="1.2rem" viewBox="0 0 24 24"><path d="m12 21l-1.45-1.3q-2.525-2.275-4.175-3.925T3.75 12.812Q2.775 11.5 2.388 10.4T2 8.15Q2 5.8 3.575 4.225T7.5 2.65q1.3 0 2.475.55T12 4.75q.85-1 2.025-1.55t2.475-.55q2.35 0 3.925 1.575T22 8.15q0 1.15-.388 2.25t-1.362 2.412q-.975 1.313-2.625 2.963T13.45 19.7L12 21Z"/></svg>
+                favorilerim</a>
         </div>
 
         <div class="shopping">
-            <a href=""><i class="fa-solid fa-cart-shopping"></i></a>
+            <a href="">
+     <svg xmlns="http://www.w3.org/2000/svg" width="1.3rem" height="1.3rem" viewBox="0 0 24 24" fill=""><g id="evaShoppingCartFill0"><g id="evaShoppingCartFill1"><g id="evaShoppingCartFill2" fill=""><path d="M21.08 7a2 2 0 0 0-1.7-1H6.58L6 3.74A1 1 0 0 0 5 3H3a1 1 0 0 0 0 2h1.24L7 15.26A1 1 0 0 0 8 16h9a1 1 0 0 0 .89-.55l3.28-6.56A2 2 0 0 0 21.08 7Z"/><circle cx="7.5" cy="19.5" r="1.5"/><circle cx="17.5" cy="19.5" r="1.5"/></g></g></g></svg>
+                Sepetim</a>
         </div>
+     </div>
 
     </div>
 
@@ -49,5 +64,8 @@
 
 </header>
 
+<!-- js links -->                
+
+<script src="javascript/header.js"></script>
 </body>
 </html>

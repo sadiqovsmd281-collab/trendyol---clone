@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: none;
+    font-family: sans-serif;
+    text-decoration: none;
+    list-style: none;
+    transition: 0.3s  ease;
+}
+
+.html{
+    font-size: 62.5%;
+    overflow-x: hidden;
+    scroll-padding-top: 9rem;
+    scroll-behavior: smooth;
+}
+
+:root{
+    --main-color:#F27a10;
+}
+
+
+.header .top{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+
+
+.searchbox{
+    width: 37.5rem;
+    padding: 0.8rem 1.2rem;
+    border-radius: 0.5rem;
+    background: #f5f3f1;
+}
+
+.searchbox i{
+    font-size:1.3rem;
+    color: var(--main-color);
+    cursor: pointer;
+}
+
+.searchbox form{
+    display: flex;
+    align-items: center;
+}
+
+.searchbox form input{
+    width: 100%;
+    outline: none;
+    background-color: transparent;
+    color: #b5afaf;
+    font-size:13.5px;
+    font-weight:300;
+    color: black
+}
+
+.searchbox form input::placeholder{
+    font-size: 12.5px;
+    color: rgb(99, 99, 96);
+}
+   
+.focsed{
+    background-color: #fff;
+    border: 2px solid red;
+}
+
+.icon{
+    display: flex;
+    align-items: center;
+    gap:1.7rem;
+}
+
+
+.login a,
+.favocin a,
+.shopping a{
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    color: #000;
+    font-size: 12px;
+    fill: #fff;
+    stroke: #000;
+}
+
+.login svg,
+.favocin svg,
+.shopping svg{
+    margin-right: 5px;
+}
+
+.shopping svg{
+    stroke: #000;
+}
+
+
+.login a:hover,
+.favocin a:hover,
+.shopping a:hover{
+    fill: var(--main-color);
+    color: var(--main-color);
+    stroke: var(--main-color)
+}
+
