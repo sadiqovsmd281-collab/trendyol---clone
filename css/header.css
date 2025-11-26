@@ -70,7 +70,7 @@
 .icon{
     display: flex;
     align-items: center;
-    gap:1.7rem;
+    gap:1.2rem;
 }
 
 
@@ -84,6 +84,7 @@
     font-size: 12px;
     fill: #fff;
     stroke: #000;
+    position: relative;
 }
 
 .login svg,
@@ -103,5 +104,43 @@
     fill: var(--main-color);
     color: var(--main-color);
     stroke: var(--main-color)
+}
+
+.user-modul{
+    position: absolute;
+    right: 0 ;
+    top: 100%;
+    width: 11.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    border: 1px solid #ebe6e6;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    display: none;
+}
+
+.user-modul button{
+    background-color: #F27a10;
+    padding: 0.5rem 0.7rem;
+    border-radius: 0.3rem;
+    color: #fff;
+}
+
+.user-modul .uye{
+    background: transparent;
+    color: #000;
+    border: 1px solid #dbd3d3;
+}
+
+.login{
+    padding: 1rem;
+    position: relative;
+}
+
+.login:hover .user-modul{
+    display: flex;
+    transform: translate(3rem, 0.6rem);
+    position: absolute;
 }
 
