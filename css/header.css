@@ -106,7 +106,7 @@
     stroke: var(--main-color)
 }
 
-.user-modul{
+.hesap{
     position: absolute;
     right: 0 ;
     top: 100%;
@@ -120,14 +120,14 @@
     display: none;
 }
 
-.user-modul button{
+.hesap button{
     background-color: #F27a10;
     padding: 0.5rem 0.7rem;
     border-radius: 0.3rem;
     color: #fff;
 }
 
-.user-modul .uye{
+.hesap .uye{
     background: transparent;
     color: #000;
     border: 1px solid #dbd3d3;
@@ -138,9 +138,9 @@
     position: relative;
 }
 
-.login:hover .user-modul{
+.login:hover .hesap{
     display: flex;
-    transform: translate(3rem, 0.6rem);
+    transform: translate(3rem, 0.7rem);
     position: absolute;
 }
 
